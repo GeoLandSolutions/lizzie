@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "lizzie",
+  "compatibility_date": "2026-06-01",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "lizzie.valuebase.ai", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": ".output/public",
+    "not_found_handling": "single-page-application",
+    "html_handling": "auto-trailing-slash"
+  }
+}
