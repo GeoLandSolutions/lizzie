@@ -15,7 +15,7 @@ const config = defineConfig({
       rollupConfig: { external: [/^@sentry\//] },
       // Prerender the SPA shell so Cloudflare Workers can serve static assets only.
       prerender: {
-        routes: ['/'],
+        routes: ['/', '/go'],
         crawlLinks: false,
         failOnError: true,
       },

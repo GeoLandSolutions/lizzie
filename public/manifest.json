@@ -1,6 +1,6 @@
 {
-  "short_name": "TanStack App",
-  "name": "Create TanStack App Sample",
+  "short_name": "Landlord's Game",
+  "name": "The Landlord's Game (1906)",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#1d2a23",
+  "background_color": "#1d2a23",
+  "description": "Lizzie Magie's original anti-monopoly board game: switch between Monopoly mode and Land Value Tax mode."
 }
