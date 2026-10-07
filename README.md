@@ -31,6 +31,8 @@ bun run deploy
 Local Workers preview: `bun run preview:cf`
 
 CI: pushes to `main` deploy via `.github/workflows/deploy.yml` (needs `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repo secrets).
+Create a long-lived API token on the Valuebase account ("Edit Cloudflare Workers"
+template) in the Cloudflare dashboard, then run `bun run authit` to store both secrets.
 
 ## How it works
 

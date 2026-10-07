@@ -1,6 +1,8 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "lizzie",
+  // Valuebase account (wrangler login also sees a personal account)
+  "account_id": "c81a246538e2144e68fec95c1443139b",
   "compatibility_date": "2026-06-01",
   "workers_dev": false,
   "routes": [
